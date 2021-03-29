@@ -1,0 +1,16 @@
+body {
+    overflow-x: hidden;
+}
+.row {
+    overflow-x: hidden;
+}
+.header-img {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.row-2 {
+    padding-right: 0;
+    margin-right: 0;
+}
