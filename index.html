@@ -19,7 +19,7 @@
     <!-- Row container for the logo and button -->
     <div class="row row-1">
       <div class="col-6 row-1-img">
-        <img src="assets/shared/logo.svg" alt="logo">
+        <img class="logo" src="assets/shared/logo.svg" alt="logo">
       </div>
       <div class="col-6 text-right">
         <button class="btn-primary row-1-btn">Pre-order now</button>
@@ -32,11 +32,15 @@
     <!-- Row container for the header content -->
     <div class="row row-2">
       <div class="col-12 col-sm-7 row-2-content">
-        <h1>Typemaster keyboard</h1>
-        <p>Improve your productivity and gaming without breaking the bank. Upgrade to a high quality 
-          mechanical typing experience.</p>
-        <button>Pre-order now</button>
-        <p>Release on 5/27</p>
+        <div class="header-container">
+          <h1>Typemaster keyboard</h1>
+          <p>Improve your productivity and gaming without breaking the bank. Upgrade to a high quality 
+            mechanical typing experience.</p>
+          <div class="container-2-flex">
+            <button>Pre-order now</button>
+            <p>Release on 5/27</p>
+          </div>
+        </div>
       </div>
       <div class="col-12 col-sm-5">
         <img class="header-img" src="assets/mobile/image-keyboard.jpg" alt="keyboard">
@@ -50,17 +54,17 @@
   <div class="container-fluid container-md" id="container-3">
     <div class="row">
       <!-- First Picture Container -->
-      <div class="col-6 img-container">
-        <img class="container-3-img-1  " src="assets/mobile/image-phone-and-keyboard.jpg">
+      <div class="col-4 col-md-4 col-lg-3 img-container">
+        <img class="container-3-img-1 container-3-img" src="assets/mobile/image-phone-and-keyboard.jpg">
       </div>
 
       <!-- Second Picture Container -->
-      <div class="col-6">
-        <img class="container-3-img-2" src="assets/mobile/image-glass-and-keyboard.jpg">
+      <div class="col-7 col-md-8 col-lg-5">
+        <img class="container-3-img-2 container-3-img" src="assets/mobile/image-glass-and-keyboard.jpg">
       </div>
 
       <!-- Third Content Container -->
-      <div class="col-12 text-center">
+      <div class="col-12 col-lg-4 text-center">
         <div class="container-3-flex">
           <h2 class="col-md-6">Mechanical wireless keyboard</h2>
           <p class="col-md-6">The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety 
